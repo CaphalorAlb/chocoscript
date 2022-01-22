@@ -1,0 +1,48 @@
+Set-ExecutionPolicy AllSigned
+
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+
+choco feature enable -n=useRememberedArgumentsForUpgrades
+choco install eartrumpet -y
+choco install adobereader -y
+choco install chocolatey-core.extension -y
+choco install googlechrome -y
+choco install firefox -y --params "/NoDesktopShortcut"
+choco install jre8 -y
+choco install vlc -y
+choco install python3 -y
+choco install dotnetfx -y
+choco install 7zip 21.7 -y
+choco install notepadplusplus -y
+choco install malwarebytes -y
+choco install winrar -y
+choco install ccleaner -y
+choco install treesizefree -y
+choco install k-litecodecpackfull -y
+choco install spotify -y
+choco install nvidia-display-driver -y
+choco install chocolateygui -y
+choco install steam-client -y
+choco install discord -y
+choco install teamspeak -y
+choco install msiafterburner -y
+choco install geforce-experience -y
+choco install hwinfo -y
+choco install f.lux -y
+choco install wowup -y
+choco install wox -y
+choco install everything -y
+choco install everythingtoolbar -y
+choco install javaruntime -y
+choco install jdk11 -y
+choco install evga-precision-x1 -y
+choco install sdio -y
+choco install gyazo -y
+choco install obs-studio -y
+choco install speccy -y
+choco install origin -y
+choco install goggalaxy -y
+choco install plexmediaplayer -y
+choco install epicgameslauncher -y
+choco install choco-upgrade-all-at --params "'/TIME:09:00'"
