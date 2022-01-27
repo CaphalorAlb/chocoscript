@@ -5,40 +5,51 @@ Set-ExecutionPolicy AllSigned
 choco feature enable -n allowGlobalConfirmation
 choco feature enable -n=useRememberedArgumentsForUpgrades
 
-choco install eartrumpet -y
-choco install adobereader -y
-choco install chocolatey-core.extension -y
-choco install googlechrome -y
-choco install firefox -y --params "/NoDesktopShortcut"
-choco install jre8 -y
-choco install vlc -y
-choco install python3 -y
-choco install dotnetfx -y
-choco install 7zip 21.7 -y
-choco install notepadplusplus -y
-choco install malwarebytes -y
-choco install ccleaner -y
-choco install treesizefree -y
-choco install k-litecodecpackfull -y
 choco install chocolateygui -y
-choco install steam-client -y
-choco install discord -y
-choco install teamspeak -y
-choco install msiafterburner -y
-choco install geforce-experience -y
-choco install hwinfo -y
+choco install chocolatey-core.extension -y
+
+choco install firefox -y --params "/NoDesktopShortcut"
+choco install googlechrome -y
+
+choco install eartrumpet -y
 choco install f.lux -y
 choco install wox -y
 choco install everything -y
 choco install everythingtoolbar -y
+choco install 7zip 21.7 -y
+choco install notepadplusplus -y
+
+choco install adobereader -y
+choco install jre8 -y
+choco install vlc -y
+choco install k-litecodecpackfull -y
+
+choco install python3 -y
+choco install dotnetfx -y
 choco install javaruntime -y
 choco install jdk11 -y
+
+choco install malwarebytes -y
+choco install adwcleaner
+choco install ccleaner -y
+choco install treesizefree -y
+
+choco install discord -y
+choco install teamspeak -y
+
+choco install msiafterburner -y
+choco install geforce-experience -y
 choco install evga-precision-x1 -y
+choco install hwinfo -y
+
 choco install sdio -y
 choco install gyazo -y
 choco install obs-studio -y
+
+choco install steam-client -y
 choco install origin -y
 choco install goggalaxy -y
 choco install epicgameslauncher -y
+choco install ubisoft-connect -y
 
 choco install choco-upgrade-all-at --params "'/TIME:09:00'"
