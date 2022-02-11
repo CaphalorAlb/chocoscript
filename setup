@@ -12,7 +12,6 @@ choco install firefox -y --params "/NoDesktopShortcut"
 choco install googlechrome -y
 
 choco install eartrumpet -y
-choco install f.lux -y
 choco install wox -y
 choco install everything -y
 choco install everythingtoolbar -y
@@ -30,7 +29,7 @@ choco install javaruntime -y
 choco install jdk11 -y
 
 choco install malwarebytes -y
-choco install adwcleaner
+choco install adwcleaner -y
 choco install ccleaner -y
 choco install treesizefree -y
 
@@ -42,7 +41,6 @@ choco install geforce-experience -y
 choco install evga-precision-x1 -y
 choco install hwinfo -y
 
-choco install sdio -y
 choco install gyazo -y
 choco install obs-studio -y
 
